@@ -16,8 +16,7 @@
 简介
 ====
 
-一款经过生产环境检验(日PV10亿级)的轻量级PHP框架。
-
+一款经过生产环境检验(日PV10亿级)的轻量级PHP框架，此为1.0版本，毫秒级响应。
 ```shell
 #支持Web和Console两种模式，单文件入口，自动识别web和cli环境，创建web下/console的application。
 php index.php
@@ -27,7 +26,7 @@ php index.php
 
 ```shell
    #实现了经典的Master-Worker模式。
-   php index.php --id=tinyphp-demo --daemon=start
+   php index.php --id=tinyphp-daemon --daemon=start
    
    #可扩展为TCP服务端程序，定时器，IO异步事件驱动等模式，能够365xx24稳定运行。
    ```
