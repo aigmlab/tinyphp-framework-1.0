@@ -1,5 +1,5 @@
 {
-    "name": "opensaasnet/tinyphp-framework-1.0",
+    "name": "opensaas/tinyphp-framework-1.0",
     "description": "a framework for php",
     "type" : "project",
     "require" :{
