@@ -27,7 +27,7 @@ php index.php
 
 ```shell
    #实现了经典的Master-Worker模式。
-   php index.php -daemon=start -id=zeroaid
+   php index.php --id=tinyphp-demo --daemon=start
    
    #可扩展为TCP服务端程序，定时器，IO异步事件驱动等模式，能够365xx24稳定运行。
    ```
@@ -39,7 +39,7 @@ php index.php
    php index.php --build
    
    #运行生成的phar单文件程序
-   php tinyd.phar
+   php tinyphp-demo.phar
    ```
 
 框架安装
@@ -51,7 +51,7 @@ git clone https://github.com/opensaasnet/tinyphp-demo.git
 cd tinyphp-demo
 
 #兼容composer安装opensaas/tinyphp库
-composer install opensaas/tinyphp@dev
+composer install opensaas/tinyphp-framework-1.0 @dev
 
 #直接git下载
 mkdir  lib/ && cd lib
