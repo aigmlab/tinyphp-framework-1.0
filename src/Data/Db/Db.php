@@ -466,7 +466,7 @@ class Db implements IDataSchema
         ];
         array_walk($pval, function (& $v) {
             $v = trim($v);
-            if (FALSE === strpbrk($v, ' ,.'))
+            if (FALSE === strpbrk($v, ' ,.*'))
             {
                 $v = sprintf('`%s`', $v);
             }
