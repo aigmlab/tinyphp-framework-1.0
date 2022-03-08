@@ -906,10 +906,6 @@ class Daemon
     protected function _outlog($id, $msg, $priority = 6)
     {
         $msg .= "\n";
-        if ($this->_debug)
-        {
-           echo $msg;
-        }
         if ($this->_daemonHandler)
         {
             $this->_daemonHandler->onOutLog($id, $msg, $priority);
