@@ -1,5 +1,5 @@
 {
-    "name": "opensaas/tinyphp-framework-1.0",
+    "name": "tinyphporg/tinyphp-framework-1.0",
     "description": "A framework for php",
     "type" : "project",
     "require" :{
@@ -9,8 +9,8 @@
     "minimum-stability": "stable",
     "version": "1.0.0",    
     "author" : {
-    	"name" : "da.jin",
-    	"email" : "da.jin@opensaas.net"
+    	"name" : "tinycn",
+    	"email" : "tinycn@qq.com"
     },
     "autoload":{
     "psr-4" : { "Tiny\\":"src/"}
