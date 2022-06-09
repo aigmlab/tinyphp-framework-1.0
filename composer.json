@@ -9,7 +9,7 @@
     "minimum-stability": "stable",
     "version": "1.0.0",    
     "author" : {
-    	"name" : "tinycn",
+    	"name" : "Da.Jin",
     	"email" : "tinycn@qq.com"
     },
     "autoload":{
