@@ -10,7 +10,7 @@
     "version": "1.0.0",    
     "author" : {
     	"name" : "Da.Jin",
-    	"email" : "tinycn@qq.com"
+    	"email" : "da.jin@tinyphp.org"
     },
     "autoload":{
     "psr-4" : { "Tiny\\":"src/"}
