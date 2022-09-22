@@ -199,7 +199,7 @@ class Filter implements IFilter
             return $ndata;
         }
         $data = htmlspecialchars($data);
-        $data = preg_replace('/^(select|insert|and|or|create|update|delete|alter|count|\'|\/\*|\*|\.\.\/|\.\/|union|into|load_file|outfile)/i', '', $data);
+        $data = preg_replace('/^(select|insert|and|or|create|update|delete|alter|count|\'|\/\*|select\s+\*|\.\.\/|\.\/|union|into|load_file|outfile)/i', '', $data);
         $data = addslashes($data);
         return $data;
     }
