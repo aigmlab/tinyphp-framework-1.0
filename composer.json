@@ -1,18 +1,20 @@
 {
     "name": "aigm/tinyphp-framework-1.0",
     "description": "A framework for php",
-    "type" : "project",
-    "require" :{
-    	"php" : ">= 7.0.0"
+    "type": "project",
+    "require": {
+        "php": ">= 7.0.0"
     },
     "license": "Apache-2.0",
-    "authors" : [
+    "authors": [
         {
-    	"name" : "aigm",
-    	"email" : "lab@aigm.cc"
+            "name": "aigm",
+            "email": "lab@aigm.cc"
         }
     ],
-    "autoload":{
-    "psr-4" : { "Tiny\\":"src/"}
+    "autoload": {
+        "psr-4": {
+            "Tiny\\": "src/"
+        }
     }
 }
