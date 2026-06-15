@@ -6,12 +6,12 @@
     	"php" : ">= 7.0.0"
     },
     "license": "Apache-2.0",
-    "minimum-stability": "stable",
-    "version": "v1.0.0",    
-    "author" : {
-    	"name" : "aigmlab",
+    "authors" : [
+        {
+    	"name" : "aigm",
     	"email" : "lab@aigm.cc"
-    },
+        }
+    ],
     "autoload":{
     "psr-4" : { "Tiny\\":"src/"}
     }
