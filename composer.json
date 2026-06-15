@@ -1,5 +1,5 @@
 {
-    "name": "tinyphporg/tinyphp-framework-1.0",
+    "name": "aigmlab/tinyphp-framework-1.0",
     "description": "A framework for php",
     "type" : "project",
     "require" :{
@@ -9,8 +9,8 @@
     "minimum-stability": "stable",
     "version": "1.0.0",    
     "author" : {
-    	"name" : "Da.Jin",
-    	"email" : "da.jin@tinyphp.org"
+    	"name" : "aigmlab",
+    	"email" : "lab@aigm.cc"
     },
     "autoload":{
     "psr-4" : { "Tiny\\":"src/"}
