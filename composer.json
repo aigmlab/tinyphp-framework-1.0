@@ -1,5 +1,5 @@
 {
-    "name": "aigmlab/tinyphp-framework-1.0",
+    "name": "aigm/tinyphp-framework-1.0",
     "description": "A framework for php",
     "type" : "project",
     "require" :{
